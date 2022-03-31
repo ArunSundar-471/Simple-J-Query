@@ -1,0 +1,24 @@
+<html>
+
+<head>
+   
+    <title>Element Selector</title>
+</head>
+<body>
+    <h1 id="mine"> ARUN SUNDAR</h1>
+    <h1>Always be Happy</h1>
+    <h2>Electronics and Communication Engineering</h2>
+
+    <script src="jquery/query.js"></script>
+  <script>
+        $("document").ready(function (){
+            $("#mine").click(function(){
+
+                var a=$(this).html();
+                console.log(a);
+            });
+        });             
+
+    </script>
+</body>
+</html>

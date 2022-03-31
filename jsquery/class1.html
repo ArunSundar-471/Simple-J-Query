@@ -1,0 +1,24 @@
+<html>
+
+<head>
+   
+    <title>Class Selector</title>
+</head>
+<body>
+    <h1> ARUN SUNDAR</h1>
+    <i class="mine">Electronics and Communication Engineering</i>
+    <p class="mine">NEVER GIVE UP</p>
+
+    <script src="jquery/query.js"></script>
+  <script>
+        $("document").ready(function (){
+            $(".mine").click(function(){
+
+                var a=$(this).html();
+                console.log(a);
+            });
+        });             
+
+    </script>
+</body>
+</html>
